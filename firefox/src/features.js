@@ -110,6 +110,8 @@ async function colorHeaderHandler(e) {
         const name = "X-PwnFox-Color"
         const value = colorMap[identity.color]
         e.requestHeaders.push({ name, value })
+    } else {
+        e.requestHeaders.push({"name": "X-PwnFox-Color", "value": colorMap[identity.color]})
     }
     return { requestHeaders: e.requestHeaders }
 }
