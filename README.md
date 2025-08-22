@@ -1,3 +1,9 @@
+# About this fork
+
+This version enables assigning custom Firefox container names instead of the default `PwnFox-color` without breaking compatibility with Burp.
+
+The latest packaged release can be downloaded from [releases](https://github.com/trybadisch/PwnFox/releases).
+
 # <img src="/firefox/icons/icon.svg" width=30> PwnFox
 
 PwnFox is a Firefox/Burp extension that provide usefull tools for your security audit.
